@@ -48,3 +48,6 @@ I applied a **3D flip animation** to the cards using:
 ```swift
 .rotation3DEffect(.degrees(card.isFaceUp ? 180 : 0), axis: (0,1,0))
 .animation(.easeInOut(duration: 0.4), value: card.isFaceUp)
+
+Video: https://drive.google.com/file/d/1HtDaNWLJ-ygeIm2yRU7Zg35oMFHXLJxF/view?usp=drive_link
+
